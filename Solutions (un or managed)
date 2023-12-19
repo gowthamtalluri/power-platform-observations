@@ -1,1 +1,5 @@
 In managed solutions when used enhanced model for portal it is hard to uninstall since site components are rasiing depedecies. Have to careful and properly test or it's good to migrate portals as speratae solution.
+
+In managed solutions using powerfx formula columns we might encounter issue if we modify the referred column label/title becuase fx columns refer to displayname(logiaclname).
+
+
