@@ -2,4 +2,8 @@ In managed solutions when used enhanced model for portal it is hard to uninstall
 
 In managed solutions using powerfx formula columns we might encounter issue if we modify the referred column label/title, length becuase fx columns refer to displayname(logiaclname).
 
+In managed solutions the flows with Office365/outlook connector needs permissions to turn on the flow and it creates a un-managed layer.
+
+Have to check when a new action is added to the manged flow which has un-managed layer have to see if new action block gets executed or not.
+
 
